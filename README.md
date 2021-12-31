@@ -1,8 +1,8 @@
 # Google Search  Clone
 
-![screenshot ](https://user-images.githubusercontent.com/88515844/147764187-0ec35939-c8e5-48ee-9700-5aec522a037b.png)
+![screenshot ](https://user-images.githubusercontent.com515844/147764187-0ec35939-c8e5-48ee-9700-5aec522a037b.png)
 
-## **[Live Demo](https://hulu-clone-with-typescript.verceapp/)**
+## **[Live Demo](https://hulu-clone-with-typescript.vercel.app/)**
 
 ## Introduction
 
