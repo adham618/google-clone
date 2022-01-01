@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Avater from '../common/components/Avater'
 
 const Home: NextPage = () => {
   return (
@@ -11,14 +12,18 @@ const Home: NextPage = () => {
       </Head>
 
       {/* Header */}
-      <header className="w-full p-5 text-sm text-gray-700">
-        <div className="flex space-x-4 link float-right">
-          <p>Gmail</p>
-          <p>Images</p>
+      <header className="flex w-full p-5 justify-between text-sm text-gray-700">
+        {/* Left */}
+        <div className="flex space-x-4 items-center"></div>
+        {/* Right */}
+        <div className="flex space-x-4 items-center ">
+          <p className='link'>Gmail</p>
+          <p className='link'>Images</p>
+          {/* Icon */}
+          {/* Avater */}
+          <Avater url={'/photo.jpg'} />
         </div>
       </header>
-      {/* Icon */}
-      {/* Avater */}
       {/* Body */}
       {/* Footer */}
 
