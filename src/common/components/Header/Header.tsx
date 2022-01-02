@@ -3,6 +3,7 @@ import Image from "next/image"
 import { useRouter } from "next/router"
 import { MutableRefObject, useRef } from "react"
 import Avater from "../Avater/Avater"
+import HeaderOptions from "./HeaderOptions"
 
 interface HeaderProps {
 
@@ -36,6 +37,8 @@ const Header = ({ }: HeaderProps) => {
         </form>
         <Avater className="ml-auto" url={'/photo.jpg'} />
       </div>
+      {/* Header Options */}
+      <HeaderOptions />
     </header>
   )
 }
