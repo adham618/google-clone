@@ -5,7 +5,7 @@ interface FooterProps {
 const Footer = ({ }: FooterProps) => {
   return (
     <footer className="grid w-full divide-y-[1px] divide-gray-300 bg-gray-100 text-sm text-gray-500">
-      <div className="px-8 py-3">
+      <div className="px-2 sm:px-8 py-3">
         <p>United Kingdom</p>
       </div>
       <div className="lg:flex lg:justify-between grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense px-8 py-3">
