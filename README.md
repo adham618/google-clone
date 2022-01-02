@@ -1,6 +1,9 @@
 # Google Search  Clone
 
-![screenshot ](https://user-images.githubusercontent.com515844/147764187-0ec35939-c8e5-48ee-9700-5aec522a037b.png)
+![screenshot](https://user-images.githubusercontent.com/88515844/147889737-19f6a710-b866-40fd-a3f6-ec54d289ce53.png)
+![screenshot2](https://user-images.githubusercontent.com/88515844/147889742-af619671-af02-4bb2-a41c-fbc80a8faa33.png)
+
+
 
 ## **[Live Demo](https://google-clone-ruddy.vercel.app)**
 
