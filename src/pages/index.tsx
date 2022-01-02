@@ -25,7 +25,6 @@ const Home: NextPage = () => {
       <Head>
         <title>Google</title>
         <meta name="description" content="Google Clone" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* Header */}
@@ -46,12 +45,12 @@ const Home: NextPage = () => {
         </div>
       </header>
       {/* Body */}
-      <form className='flex flex-col items-center mt-5 flex-grow mx-5 w-4/5'>
+      <form onSubmit={search} className='flex flex-col items-center mt-20 flex-grow mx-5 w-4/5'>
         <Image
-          src={"https://www.google.com/logos/doodles/2022/new-years-day-2022-6753651837109338-law.gif"}
-          width={500}
-          height={200}
-          alt="google-image"
+          src={"https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"}
+          width={400}
+          height={80}
+          alt="google-logo"
           draggable="false"
         />
         <div className='flex w-full mt-5 hover:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl'>
