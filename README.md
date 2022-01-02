@@ -29,11 +29,11 @@ Google Search Clone with nextjs, typescript, tailwind CSS, and Google API
 ├── src                                # Src Folder
     ├── common                         # Common Folder
         ├── components                 # Reusabble parts
+            ├── Avater                 # Avater component
             ├── Header                 # Header component
-            ├── Navbar                 # Navbar component
-            ├── Results                # Results component
+            ├── SearchResults          # SearchResults component
             ├── Footer                 # Footer component
-            ├── utils                  # utils component
+        ├── utils                      # utils component
     ├── styles
     ├── pages                          # Application views
 ```
