@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           {/* Icon */}
           <ViewGridIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer' />
           {/* Avater */}
-          <Avater url={'/photo.jpg'} />
+          <Avater url={'/photo.jpg'} className={''} />
         </div>
       </header>
       {/* Body */}
