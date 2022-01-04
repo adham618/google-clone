@@ -10,7 +10,7 @@
 ## Introduction
 
 Google Search Clone with nextjs, typescript, tailwind CSS, and Google API
-[Google API](https://themoviedb.org)
+[Google API](https://console.developers.google.com/)
 
 ## Codebase
 
